@@ -25,6 +25,8 @@
     "node": "0.10.x"
   },
   "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-angular-architecture-graph": "^0.2.6",
     "gulp-load-plugins": "^0.8.1",
     "sw-precache": "^1.2.6"
   }
