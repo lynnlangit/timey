@@ -2,6 +2,15 @@
     "version": "0.1.0",
     "configurations": [
         {
+            "name": "Node Launch",
+            "type": "node",
+            "request": "launch",
+            "port": 9222,
+            "sourceMaps": true,
+            "address":"localhost",
+            "program":"${workspaceRoot}/bin/www"
+        },
+        {
             "name": "Chrome Attach",
             "type": "chrome",
             "request": "attach",
@@ -21,6 +30,6 @@
             "type": "chrome",
             "request": "launch",
             "file": "${workspaceRoot}/home.html"
-        },
+        }
     ]
 }

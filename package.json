@@ -2,6 +2,7 @@
   "name": "timey",
   "version": "0.0.1",
   "dependencies": {
+    "@types/jfp": "0.0.22-alpha",
     "angular": "^1.4.8",
     "angular-animate": "^1.4.9",
     "angular-route": "^1.4.8",
