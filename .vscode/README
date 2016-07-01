@@ -1,0 +1,13 @@
+Documentation here
+https://github.com/Microsoft/vscode-chrome-debug
+
+0. In Code, set some breakpoints
+1. Close all instances of Chrome
+2. In Terminal, run 'kill Chrome'
+3. In Terminal, run the command below
+
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
+
+4. In Code, run the application in Debug using the 'xxx' option
+5. In Chrome, click on the 'Window:9222' 
+6. In Code, see the breakpoint be hit

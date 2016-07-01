@@ -1,3 +1,3 @@
 require('./app')
 
-// require('libs/service-worker-registration')
+require('libs/service-worker-registration')

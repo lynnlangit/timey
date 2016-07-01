@@ -7,6 +7,20 @@
             "request": "attach",
             "port": 9222,
             "sourceMaps": true
-        }
+        },
+        {
+            "name": "Launch localhost with sourcemaps",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost/home.html",
+            "webRoot": "${workspaceRoot}/app/files",
+            "sourceMaps": true
+        },
+        {
+            "name": "Launch home.html (without sourcemaps)",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceRoot}/home.html"
+        },
     ]
 }
